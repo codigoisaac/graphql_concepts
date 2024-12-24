@@ -1,19 +1,10 @@
 {
   "name": "section_1",
-  "version": "1.0.0",
   "description": "Learning GraphQL",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codigoisaac/graphql_concepts.git"
-  },
   "author": "Isaac Muniz",
   "license": "AGPL-3.0-only",
-  "bugs": {
-    "url": "https://github.com/codigoisaac/graphql_concepts/issues"
-  },
-  "homepage": "https://github.com/codigoisaac/graphql_concepts#readme"
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "graphql": "^16.10.0"
+  }
 }
