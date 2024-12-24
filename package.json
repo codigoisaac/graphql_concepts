@@ -3,6 +3,7 @@
   "description": "Learning GraphQL",
   "author": "Isaac Muniz",
   "license": "AGPL-3.0-only",
+  "main": "src/index.js",
   "dependencies": {
     "apollo-server": "^3.13.0",
     "graphql": "^16.10.0"
