@@ -4,6 +4,9 @@
   "author": "Isaac Muniz",
   "license": "AGPL-3.0-only",
   "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon -r sucrase/register src/index.js"
+  },
   "dependencies": {
     "apollo-server": "^3.13.0",
     "graphql": "^16.10.0"
@@ -12,6 +15,8 @@
     "eslint": "^9.17.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
-    "prettier": "^3.4.2"
+    "nodemon": "^3.1.9",
+    "prettier": "^3.4.2",
+    "sucrase": "^3.35.0"
   }
 }
