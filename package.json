@@ -5,7 +5,8 @@
   "license": "AGPL-3.0-only",
   "main": "src/index.js",
   "scripts": {
-    "dev": "nodemon -r sucrase/register src/index.js"
+    "dev": "nodemon -r sucrase/register src/index.js",
+    "serve": "json-server --watch db.json"
   },
   "dependencies": {
     "apollo-server": "^3.13.0",
